@@ -25,3 +25,20 @@ aside {
     padding-top: 3%;
     padding-left: 30px;
 }
+
+h3 {
+    font-size: 70px;
+    padding: 50px;
+    width: 1px;
+}
+
+section {
+    float: left;
+    width: 70vh;
+    height: 100vw;
+}
+
+iframe {
+    display: block;
+    margin: 5% auto;
+}
