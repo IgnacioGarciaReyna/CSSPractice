@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    text-align: left;
+    background-color: whitesmoke;
+    height: 19vh;
+}
+
+.tituloPrincipal {
+    color: grey;
+    font-size: 90px;
+
+}
+
+.sloganPrincipal {
+    font-size: 25px;
+    padding-left: 15vw;
+    color: yellowgreen;
+}
+
