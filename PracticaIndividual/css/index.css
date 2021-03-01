@@ -5,7 +5,7 @@
 .encabezado {
     text-align: left;
     background-color: whitesmoke;
-    height: 19vh;
+    height: 20vh;
 }
 
 .tituloPrincipal {
@@ -21,14 +21,34 @@
 }
 
 .contenedorBoton {
+    background:;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 5vh;
+
     
 }
 
 .boton {
     background: yellowgreen;
     color: white;
-    padding: 10px 20px;
-    margin: auto 20px auto 20px;
+    width: 10vw;
+    
+    text-align: center;
+    
+    height: 100%;
+    margin: auto 20px 0 20px;
+}
+
+.fechaYHora {
+    background: grey;
+    color: white;
+    width: 20vw;
+    text-align: center;
+    height: 100%;
+    margin: auto 20px 0 20px;
 }
 
 
