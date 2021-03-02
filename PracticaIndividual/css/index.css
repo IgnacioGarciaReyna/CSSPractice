@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.oGreen {
+    color: yellowgreen;
+}
+
 .encabezado {
     text-align: left;
     background-color: whitesmoke;
@@ -90,39 +94,93 @@
     height: 45vh;
     width: 23%;
     border:black 1px solid;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #radio {
     background: rgb(100, 2, 100);
     color: white;
     text-align: center;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     justify-content: space-between;
-
-    
+    /*Eventualmente habrá que sacar este justify-content: space-between*/
 }
 
 #forumRadio {
     border-radius:100px;
-    height: 120px;
-    width: 120px;
+    height: 160px;
+    width: 160px;
     background: rgb(216, 48, 216);
     border: white 5px solid;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    position: relative;
 }
 
+#forumRadioNombre {
+    font-size: 40px;
+    position: absolute;
+}
+
+#forumRadioMedio {
+    font-size: 20px;
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+}
+
+#onLineBold {
+    font-weight: bold;
+}
 
 #circuloEmprendedores {
     background: grey;
+    color: white;
+}
+
+#centroCirculoEmprendedores {
+    border-radius:100px;
+    height: 140px;
+    width: 140px;
+    background: grey;
+    border: yellowgreen 5px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#invitacionNombre {
+    text-align: center;
+    font-size: 25px;
+}
+
+#invitacionSubtitulo {
+    text-align: center;
+    font-size: 19px;
+}
+
+#centroCirculoTitulo {
+    font-size: 26px;
+    position: absolute;
+    bottom: 45%;
+}
+
+#centroCirculoSubtitulo {
+    font-size: 17px;
+    position: absolute;
+    bottom: 35%;
+}
+
+.parrafoCirculo {
+    font-size: 13px;
+    text-align: center;
 }
 
 #facebook {
@@ -130,5 +188,33 @@
 }
 
 #contactanos {
-    background: greenyellow;
+    background: url(./../assets/hojas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+#contactanosHeader {
+    position: absolute;
+    top: 10%;
+}
+
+#contactanosRevista {
+
+}
+
+#contactanosTitulo {
+    font-size: 35px;
+}
+
+#contactanosContenido {
+    position: absolute;
+    top: 40%;
+    font-size: 13px;
+}
+
+
+#contactanosInformacion {
+
 }
