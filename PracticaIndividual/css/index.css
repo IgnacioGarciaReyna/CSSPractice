@@ -21,14 +21,11 @@
 }
 
 .contenedorBoton {
-    background:;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
     height: 5vh;
-
-    
 }
 
 .boton {
@@ -51,4 +48,34 @@
     margin: auto 20px 0 20px;
 }
 
+.baner {
+    background: url(./../assets/ciudad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+}
 
+.logoBaner {
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    width: 20%;
+    height: 20%;
+    color: white;
+    
+}
+
+.forumBaner {
+    font-size: 55px;
+}
+ 
+.sloganBaner {
+    position: absolute;
+    bottom: 10%;
+    left: 2vw;
+    color: white;
+}
