@@ -79,3 +79,56 @@
     left: 2vw;
     color: white;
 }
+
+.contenedorCuadros {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cuadro{
+    height: 45vh;
+    width: 23%;
+    border:black 1px solid;
+}
+
+#radio {
+    background: rgb(100, 2, 100);
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+#forumRadio {
+    border-radius:100px;
+    height: 120px;
+    width: 120px;
+    background: rgb(216, 48, 216);
+    border: white 5px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#circuloEmprendedores {
+    background: grey;
+}
+
+#facebook {
+    background: white;
+}
+
+#contactanos {
+    background: greenyellow;
+}
