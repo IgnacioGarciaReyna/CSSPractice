@@ -52,14 +52,23 @@
     margin: auto 20px 0 20px;
 }
 
+#contenidoPagina {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
 .baner {
     background: url(./../assets/ciudad.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
+    width: 98%;
     height: 45vh;
     position: relative;
+    margin-left: 1%;
+    margin-right: 2%;
 }
 
 .logoBaner {
@@ -91,8 +100,8 @@
 }
 
 .cuadro{
-    height: 45vh;
-    width: 23%;
+    height: 60vh;
+    width: 22.5%;
     border:black 1px solid;
     position: relative;
     display: flex;
@@ -107,6 +116,10 @@
     text-align: center;
     justify-content: space-between;
     /*Eventualmente habrá que sacar este justify-content: space-between*/
+}
+
+#escuchanosEnVivo {
+    font-size: 25px;
 }
 
 #forumRadio {
@@ -185,7 +198,27 @@
 
 #facebook {
     background: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
+
+.fotoPerfil {
+    height: 5vw;
+    width: 5vw;
+}
+
+#botonMeGusta {
+    height: 5vw;
+    width: 8vw;
+}
+
+#personasFacebook {
+    margin-left: 3vw;
+}
+
+
+
 
 #contactanos {
     background: url(./../assets/hojas.jpg);
@@ -210,8 +243,8 @@
 
 #contactanosContenido {
     position: absolute;
-    top: 40%;
-    font-size: 13px;
+    top: 30%;
+    font-size: 15px;
 }
 
 
