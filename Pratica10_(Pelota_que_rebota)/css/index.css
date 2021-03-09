@@ -1,0 +1,84 @@
+#contenedor {
+    border: 1px black solid;
+    height: 50vh;
+    width: 90vh;
+    position: relative;
+    margin: 10vh auto auto auto;
+
+}
+
+#pelota {
+    border-radius: 10vw;
+    border: black 1px solid;
+    background: black;
+    height: 2vw;
+    width: 2vw;
+    position: absolute;
+    display: inline-block;
+    animation: animate 6s linear alternate-reverse infinite;
+   
+
+}
+
+@keyframes animate {
+    0% {
+        top: 0%;
+        left: 0%;
+        background: red;
+    }
+    1% {
+        background: black;
+    }
+    19% {
+        background: black;
+    }
+    20% {
+        top: 91%;
+        left: 20%;
+        background: red;
+    }
+    21% {
+        background: black;
+    }
+    39% {
+        background: black;
+    }
+    40% {
+        top: 0%;
+        left: 40%;
+        background: red;
+    }
+    41% {
+        background: black;
+    }
+    59% {
+        background: black;
+    }
+    60% {
+        top: 91%;
+        left: 60%;
+        background: red;
+    }
+    61% {
+        background: black;
+    }
+    79% {
+        background: black;
+    }
+    80% {
+        top: 0%;
+        left: 80%;
+        background: red;
+    }
+    81% {
+        background: black;
+    }
+    99% {
+        background: black;
+    }
+    100% {
+        top: 91%;
+        left: 95%;
+        background: red;
+    }
+}
