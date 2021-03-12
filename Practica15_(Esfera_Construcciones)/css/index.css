@@ -108,3 +108,33 @@ section {
     background-attachment: fixed;
 }
 
+.section2 {
+    background: url('./../assets/construccion.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.tituloServicios {
+    font-weight: 900;
+    color: #1E2D3B;
+    font-size: 57px;
+    text-align: center;
+    letter-spacing: .2vw;
+}
+
+.contenedorArticulos {
+    position: relative;
+    display: flex;
+}
+
+.articulo {
+
+}
+
+.textoArticulo h4 {
+    color: #1E2D3B;
+    font-size: 20px;
+    font-weight: bold;
+}
