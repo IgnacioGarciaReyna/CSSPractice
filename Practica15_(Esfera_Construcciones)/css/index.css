@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.encabezado {
+    background: red;
+    position: relative;
+    height: 12.7vh;
+    display: flex;
+}
+
+.titulo {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 23%;
+    background: #EDCD1F;
+    left: 0;
+    color: #1E2D3B;
+    display: flex;
+    
+}
+
+.logoTitulo {
+    position: absolute;
+    top: 1.8vw;
+    left: 2vw;
+}
+
+.textoTitulo {
+    position: absolute;
+    left: 6vw;
+    bottom: 1.5vw;
+    font-size: 20px;
+}
+
+.textoTitulo span {
+    font-weight: bolder;
+}
+
+.menu {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 77%;
+    background: #1E2D3B;
+    right: 0;
+}
+
+.menu ul {
+    display: flex;
+    position: absolute;
+    right: 0.3vw;
+    bottom: 2vw;
+
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 0 43px;
+    color: white;
+    font-size: 13px;
+}
