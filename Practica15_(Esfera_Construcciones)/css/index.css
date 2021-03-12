@@ -1,6 +1,10 @@
 * {
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .contenedorEncabezado {
@@ -69,20 +73,31 @@
 }
 
 .inicio {
-    background: tomato;
-
-
+    background: transparent;
+    position: absolute;
+    height: auto;
+    display: flex;
+    align-content: center;
+    top: 15vh;
+    left: 22%;
+    
 }
 
 .textoInicio {
     font-weight: bold;
     color: white;
+    position: absolute;
+    font-size: 57px;
+    width: 54vw;
+    text-align: center;
+    letter-spacing: .2vw;
 }
 
 section {
     width: 100%;
     height: 110vh;
     box-sizing: border-box;
+    
 }
 
 .section1 {
@@ -92,3 +107,4 @@ section {
     background-position: center center;
     background-attachment: fixed;
 }
+
