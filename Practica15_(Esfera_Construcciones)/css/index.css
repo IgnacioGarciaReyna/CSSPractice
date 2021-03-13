@@ -80,7 +80,6 @@ body {
     align-content: center;
     top: 15vh;
     left: 22%;
-    
 }
 
 .textoInicio {
@@ -116,25 +115,59 @@ section {
     background-attachment: fixed;
 }
 
+.servicios {
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .tituloServicios {
     font-weight: 900;
     color: #1E2D3B;
     font-size: 57px;
     text-align: center;
     letter-spacing: .2vw;
+    margin-bottom: 2vh;
+}
+
+.barritaAmarilla {
+    background: #EDCD1F;
+    width: 116px;
+    height: 10px;
+    margin: 0 0 3vw 45vw;
 }
 
 .contenedorArticulos {
     position: relative;
     display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    height: 75vh;
+    
+    
 }
 
 .articulo {
+    background: #F7F7F7;
+    width: 20.8vw;
+    height: 35vw;
+    margin: 0 12px;
+}
 
+.textoArticulo {
+    margin: 24px;
 }
 
 .textoArticulo h4 {
     color: #1E2D3B;
     font-size: 20px;
     font-weight: bold;
+}
+
+.textoArticulo p {
+    font-size: 14px;
+    line-height: 1.8;
 }
