@@ -123,19 +123,25 @@ section {
     flex-direction: column;
 }
 
-.tituloServicios {
+.tituloSeccion {
     font-weight: 900;
     color: #1E2D3B;
     font-size: 57px;
-    text-align: center;
     letter-spacing: .2vw;
     margin-bottom: 2vh;
+}
+
+#tituloServicios {
+    text-align: center;
 }
 
 .barritaAmarilla {
     background: #EDCD1F;
     width: 116px;
     height: 10px;
+}
+
+#barritaServicios {
     margin: 0 0 3vw 45vw;
 }
 
@@ -170,4 +176,29 @@ section {
 .textoArticulo p {
     font-size: 14px;
     line-height: 1.8;
+}
+
+.contenedorNosotros {
+    height: 86vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #F7F7F7;
+    position: relative;
+
+}
+
+.nosotros {
+    margin-left: 16vw;
+}
+
+#barritaNosotros {
+    margin-bottom: 7vh;
+}
+
+.textoNosotros {
+    width: 28vw;
+    line-height: 1.8;
+    font-size: 15px;
+    
 }
