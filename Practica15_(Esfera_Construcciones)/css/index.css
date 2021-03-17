@@ -131,6 +131,10 @@ section {
     margin-bottom: 2vh;
 }
 
+#barritaServicios {
+    margin: 0 0 3vw 45vw;
+}
+
 #tituloServicios {
     text-align: center;
 }
@@ -139,10 +143,6 @@ section {
     background: #EDCD1F;
     width: 116px;
     height: 10px;
-}
-
-#barritaServicios {
-    margin: 0 0 3vw 45vw;
 }
 
 .contenedorArticulos {
@@ -248,3 +248,88 @@ section {
     background: white;
     position: relative;
 }
+
+#barritaProyectos {
+    margin: 0 0 3vw 45vw;
+}
+
+#tituloProyectos {
+    text-align: center;
+}
+
+.proyectos {
+    height: 160vh;
+    position: relative;
+    border: solid black 1px;
+}
+
+.contenedorGaleria {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row > img {
+    margin: 15px;
+}
+
+.row > img:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.clientes {
+    position: relative;
+    border: black solid 1px;
+    height: 50vh;
+    width: 100%;
+    background: #F7F7F7;
+    align-items: center;
+    justify-content: center;
+}
+
+#barritaClientes {
+    margin: 0 0 3vw 45vw;
+}
+
+#tituloClientes {
+    text-align: center;
+}
+
+.contenedorClientes {
+    position: relative;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.contenedorClientes > img {
+    margin: 2vw;
+}
+
+#clientesGris > img:hover {
+    opacity: 0;
+    transition: 0.05s;
+}
+
+#barritaContacto {
+    margin: 0 0 3vw 45vw;
+}
+
+#tituloContacto {
+    text-align: center;
+}
+
+
