@@ -332,4 +332,37 @@ section {
     text-align: center;
 }
 
+.tituloContacto {
+    font-weight: bold;
+    color: #1E2D3B;
+    font-size: 22px;
+}
 
+#contenedorMapa {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorInfoContacto {
+    display: flex;
+    justify-content: ;
+    align-items: ;
+    flex-direction: row;
+    width: ;
+}
+
+.columnaInfoContacto {
+    height: 100%;
+    width: ;
+    margin-top: 2vh;
+    border: solid black 1px;
+    position: absolute;
+}
+
+#col1 {
+    left: 20vw;
+}
+
+#col2 {
+    right: 20vw;
+}
